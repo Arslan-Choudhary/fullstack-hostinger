@@ -25,3 +25,6 @@ const PORT = 4000;
 app.listen(PORT, "0.0.0.0", () =>
   console.log(`Server is running at http://localhost:${PORT}`)
 );
+
+// docker build -t react-client .
+// docker run -p 5173:3000 react-client
